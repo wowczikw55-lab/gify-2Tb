@@ -1,0 +1,40 @@
+
+#main {
+    height: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    color:#504B43;
+    background-color: #8FD694;
+    text-align: center;
+}
+body {
+    background-color: #6F8F72;
+}
+.obraz{
+    height: 300px;
+    transition: transform 0.3s ease;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.obraz:hover {
+    
+    filter: blur(1px);
+}
+.back_gif{
+    background-color:#7DBA84 ;
+    text-align: center;
+    width: 400px;
+    padding: 30px;
+    border-radius:15px;
+    display: inline-block;
+    vertical-align: top;
+    margin:20px;
+  transition: transform 0.3s ease;
+}
+.back_gif:hover{
+    transform: scale(1.6);
+}
+#karty{
+    margin-left:170px
+}
